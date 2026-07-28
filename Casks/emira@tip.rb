@@ -4,7 +4,7 @@ cask "emira@tip" do
 
   url "https://github.com/lightningboltemoji/emira/releases/download/tip/emira-tip.zip"
   name "emira"
-  desc "Tiling, scrolling window manager (rolling build of main)"
+  desc "Tiling, scrolling window manager (tip)"
   homepage "https://github.com/lightningboltemoji/emira"
 
   conflicts_with cask: "lightningboltemoji/tap/emira"
