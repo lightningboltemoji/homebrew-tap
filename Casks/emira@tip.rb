@@ -30,9 +30,7 @@ cask "emira@tip" do
 
   caveats do
     <<~EOS
-      emira needs Accessibility and Screen Recording in System Settings → Privacy & Security.
-
-      the tip build is created with every push to main -- may have breakage.
+      the tip build may be unstable. versioned release is suggested.
     EOS
   end
 end

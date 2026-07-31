@@ -32,10 +32,4 @@ cask "emira" do
     "~/Library/Preferences/zip.tanner.emira.plist",
     "~/Library/Saved Application State/zip.tanner.emira.savedState",
   ]
-
-  caveats do
-    <<~EOS
-      emira needs Accessibility and Screen Recording in System Settings → Privacy & Security.
-    EOS
-  end
 end
