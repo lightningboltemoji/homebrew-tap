@@ -4,7 +4,7 @@ cask "emira" do
 
   url "https://github.com/lightningboltemoji/emira/releases/download/v#{version}/emira-#{version}.zip"
   name "emira"
-  desc "Tiling, scrolling window manager"
+  desc "Tiling-scrolling window manager"
   homepage "https://github.com/lightningboltemoji/emira"
 
   livecheck do
