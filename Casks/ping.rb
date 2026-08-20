@@ -4,7 +4,7 @@ cask "ping" do
 
   url "https://github.com/lightningboltemoji/Ping/releases/download/v#{version}/Ping-#{version}.zip"
   name "Ping"
-  desc "Persistent visualizations for macOS notifications"
+  desc "Persistent visualizations for notifications"
   homepage "https://github.com/lightningboltemoji/Ping"
 
   livecheck do
