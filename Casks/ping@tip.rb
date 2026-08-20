@@ -4,7 +4,7 @@ cask "ping@tip" do
 
   url "https://github.com/lightningboltemoji/Ping/releases/download/tip/Ping-tip.zip"
   name "Ping"
-  desc "Surfaces Dock notification badges with screen-edge effects (tip)"
+  desc "Persistent visualizations for macOS notifications"
   homepage "https://github.com/lightningboltemoji/Ping"
 
   conflicts_with cask: "lightningboltemoji/tap/ping"

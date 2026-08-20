@@ -4,7 +4,7 @@ cask "ping" do
 
   url "https://github.com/lightningboltemoji/Ping/releases/download/v#{version}/Ping-#{version}.zip"
   name "Ping"
-  desc "Surfaces Dock notification badges with screen-edge effects"
+  desc "Persistent visualizations for macOS notifications"
   homepage "https://github.com/lightningboltemoji/Ping"
 
   livecheck do
