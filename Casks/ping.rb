@@ -1,6 +1,6 @@
 cask "ping" do
-  version "0.0.2"
-  sha256 "5b0056618c7a1018c83c51b1c28beefaf6859dfd660f40d58bfab13f63f5ce71"
+  version "0.0.3"
+  sha256 "03156d0b09f5252249a7c93aaadbe7f734bb432ef6579a522d8e6fcdb90cf780"
 
   url "https://github.com/lightningboltemoji/Ping/releases/download/v#{version}/Ping-#{version}.zip"
   name "Ping"
