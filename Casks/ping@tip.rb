@@ -14,7 +14,7 @@ cask "ping@tip" do
   app "Ping.app"
   binary "#{appdir}/Ping.app/Contents/MacOS/ping-dot-app"
 
-  postflight do
+  postflight_steps do
     system_command "/usr/bin/xattr",
                    args: ["-dr", "com.apple.quarantine", "#{appdir}/Ping.app"]
   end

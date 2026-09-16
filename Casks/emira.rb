@@ -19,7 +19,7 @@ cask "emira" do
   app "emira.app"
   binary "#{appdir}/emira.app/Contents/MacOS/emira"
 
-  postflight do
+  postflight_steps do
     system_command "/usr/bin/xattr",
                    args: ["-dr", "com.apple.quarantine", "#{appdir}/emira.app"]
   end
