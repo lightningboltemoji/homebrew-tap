@@ -15,8 +15,7 @@ cask "emira@tip" do
   binary "#{appdir}/emira.app/Contents/MacOS/emira"
 
   postflight_steps do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/emira.app"]
+    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/emira.app"]
   end
 
   uninstall quit:       "zip.tanner.emira",
