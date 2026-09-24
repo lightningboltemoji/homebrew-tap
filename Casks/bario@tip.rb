@@ -8,8 +8,8 @@ cask "bario@tip" do
   homepage "https://github.com/lightningboltemoji/bario"
 
   conflicts_with cask: "lightningboltemoji/tap/bario"
-  depends_on macos: :tahoe
   depends_on arch:  :arm64
+  depends_on macos: :tahoe
 
   app "Bario.app"
   binary "#{appdir}/Bario.app/Contents/MacOS/bario"

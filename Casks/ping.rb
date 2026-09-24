@@ -13,8 +13,8 @@ cask "ping" do
   end
 
   conflicts_with cask: "lightningboltemoji/tap/ping@tip"
-  depends_on macos: :tahoe
   depends_on arch:  :arm64
+  depends_on macos: :tahoe
 
   app "Ping.app"
   binary "#{appdir}/Ping.app/Contents/MacOS/ping-dot-app"

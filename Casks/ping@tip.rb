@@ -8,8 +8,8 @@ cask "ping@tip" do
   homepage "https://github.com/lightningboltemoji/Ping"
 
   conflicts_with cask: "lightningboltemoji/tap/ping"
-  depends_on macos: :tahoe
   depends_on arch:  :arm64
+  depends_on macos: :tahoe
 
   app "Ping.app"
   binary "#{appdir}/Ping.app/Contents/MacOS/ping-dot-app"

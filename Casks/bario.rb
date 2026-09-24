@@ -13,8 +13,8 @@ cask "bario" do
   end
 
   conflicts_with cask: "lightningboltemoji/tap/bario@tip"
-  depends_on macos: :tahoe
   depends_on arch:  :arm64
+  depends_on macos: :tahoe
 
   app "Bario.app"
   binary "#{appdir}/Bario.app/Contents/MacOS/bario"

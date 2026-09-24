@@ -13,8 +13,8 @@ cask "emira" do
   end
 
   conflicts_with cask: "lightningboltemoji/tap/emira@tip"
-  depends_on macos: :tahoe
   depends_on arch:  :arm64
+  depends_on macos: :tahoe
 
   app "emira.app"
   binary "#{appdir}/emira.app/Contents/MacOS/emira"

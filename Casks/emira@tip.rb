@@ -8,8 +8,8 @@ cask "emira@tip" do
   homepage "https://github.com/lightningboltemoji/emira"
 
   conflicts_with cask: "lightningboltemoji/tap/emira"
-  depends_on macos: :tahoe
   depends_on arch:  :arm64
+  depends_on macos: :tahoe
 
   app "emira.app"
   binary "#{appdir}/emira.app/Contents/MacOS/emira"
