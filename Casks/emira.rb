@@ -1,6 +1,6 @@
 cask "emira" do
-  version "0.3.0"
-  sha256 "8d415be4a1441d72939de13a0e9bb019bfa2edd4d13004ae7034cc52399b0cda"
+  version "0.3.1"
+  sha256 "8792c07d792701c7ec33b2ef6f13927674f5703f403d1288f4b5a39ff9f96d86"
 
   url "https://github.com/lightningboltemoji/emira/releases/download/v#{version}/emira-#{version}.zip"
   name "emira"
