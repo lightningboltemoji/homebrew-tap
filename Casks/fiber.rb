@@ -30,12 +30,12 @@ cask "fiber" do
     run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/Fiber.app"]
   end
 
-  uninstall quit: "com.o11.fiber"
+  uninstall quit: "zip.tanner.fiber"
 
   zap trash: [
     "~/Library/Application Support/Fiber",
     "~/Library/Caches/Fiber",
-    "~/Library/Preferences/com.o11.fiber.plist",
-    "~/Library/Saved Application State/com.o11.fiber.savedState",
+    "~/Library/Preferences/zip.tanner.fiber.plist",
+    "~/Library/Saved Application State/zip.tanner.fiber.savedState",
   ]
 end
