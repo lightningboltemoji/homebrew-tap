@@ -1,6 +1,6 @@
 cask "dock2" do
-  version "0.2.0"
-  sha256 "a6736ef6be9159e67c13596e40a1c65d6e437e3760da9b86bb0feb983b98509d"
+  version "0.4.0"
+  sha256 "f1d7c918ee5f028113ff24ec767cdd7afe5093ca004184b726329e5c0f8fe606"
 
   url "https://github.com/lightningboltemoji/dock2/releases/download/v#{version}/dock2-#{version}.zip"
   name "dock2"
