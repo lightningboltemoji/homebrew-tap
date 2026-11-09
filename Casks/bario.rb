@@ -1,6 +1,6 @@
 cask "bario" do
-  version "0.2.1"
-  sha256 "ac0da4128cf5dfd79aeab103f17470a8d39dfb2443ca4b9cd82154d05e0a9479"
+  version "0.3.0"
+  sha256 "75daba35f8ea4df5763f84125cd72e20268c95e5e3de10ba123d91531056f7b6"
 
   url "https://github.com/lightningboltemoji/bario/releases/download/v#{version}/bario-#{version}.zip"
   name "Bario"
