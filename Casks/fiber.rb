@@ -1,6 +1,6 @@
 cask "fiber" do
-  version "0.0.0,0.0.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  version "0.1.0,158.8127.18"
+  sha256 "be6b158bfda8d276095fc290e972e50e8858af4b8a9536ef6acdfbef11c09b49"
 
   url "https://github.com/lightningboltemoji/fiber/releases/download/v#{version.csv.first}/Fiber-#{version.csv.first}c#{version.csv.second}.zip"
   name "Fiber"
